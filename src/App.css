@@ -131,9 +131,6 @@
 .arrow {
   position: fixed;
   margin-top: 13%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 5rem;
   color: #5ab2c8;
 }
