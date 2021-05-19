@@ -2,7 +2,7 @@
 const ArrowButton = ({handleFunction, direction}) => {
 
     return(
-        <a href='/pages#' onClick={handleFunction}>
+        <a href='/#' onClick={handleFunction}>
             <i className={`fas fa-chevron-${direction} arrow`}></i>
         </a>
 )
