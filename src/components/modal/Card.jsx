@@ -1,5 +1,6 @@
 import ReactDom from 'react-dom';
 import App from '../../App';
+import Modal from '../modal/detailsCharacter/Modal';
 
 const Card = ({description, window, dimension, type}) => {
     
@@ -24,12 +25,17 @@ const Card = ({description, window, dimension, type}) => {
                                     }
                                     return(
                                         <div className='col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12 text-center card-border' key={character.id}>
-                                            <p>#{index+1}</p>
-                                            <img src={character.image} alt={character.name} className='img-character'/>
-                                            <div className='footer-card'>
-                                                <p>{character.name}</p>
-                                                <p>{character.status}<i className={`fas fa-dot-circle ${character.status}`}></i></p>
+                                            <div className='body'>
+                                                <p>#{index+1}</p>
+                                                <div>
+                                                    <img src={character.image} alt={character.name} className='img-character'/>
+                                                </div>
+                                                <div className='footer-card'>
+                                                    <p>{character.name}</p>
+                                                    <p>{character.status}<i className={`fas fa-dot-circle ${character.status}`}></i></p>
+                                                </div>
                                             </div>
+                                            <Modal character={characters[index]}/>
                                         </div>
                                     )
                                 })

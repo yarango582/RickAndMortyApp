@@ -7,6 +7,7 @@ import PreviousPage from './components/PreviousPage';
 import NextPage from './components/NextPage';
 import Locations from './components/Locations';
 import logo from './logo.png';
+import Music from './components/Music';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
             </div>
             <div className="col-2 col-xs-2 nextPage">
               <NextPage page={page} newPage={setNewPage}/>
+              <Music/>
             </div>
           </div>
         </div>
