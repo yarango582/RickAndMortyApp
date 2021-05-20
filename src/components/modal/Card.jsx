@@ -23,7 +23,7 @@ const Card = ({description, window, dimension, type}) => {
                                         clearTimeout(counter);
                                     }
                                     return(
-                                        <div className='col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12 text-center' key={character.id}>
+                                        <div className='col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12 text-center card-border' key={character.id}>
                                             <p>#{index+1}</p>
                                             <img src={character.image} alt={character.name} className='img-character'/>
                                             <div className='footer-card'>

@@ -490,10 +490,28 @@
 }
 
 .img-character {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 250px;
+  max-height: 300px;
   border-radius: 4px;
+  border: 2px solid;
+  animation-name: character;
+  animation-duration: 5s;
 }
+
+.img-character:hover {
+  border: 2px solid #df6ffec7;
+}
+
+@keyframes character {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
 
 .container-characters {
   text-align: center;
@@ -507,6 +525,12 @@
 .footer-card {
   display: flex;
   justify-content: space-evenly;
+}
+
+.card-border {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.712);
+  border-radius: 5px 5px 5px 5px;
 }
 
 /* Estados del personaje */
