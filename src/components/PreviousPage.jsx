@@ -1,4 +1,4 @@
-import Arrow from './Arrow';
+import Arrow from './arrows/ArrowL';
 import loadingPopUp, {notFoundPopUp} from './Alert';
 import message from '../utils/messages.json';
 

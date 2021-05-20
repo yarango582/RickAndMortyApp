@@ -38,13 +38,13 @@ function App() {
         <Header logo={logo} dataSearch={setLocation} />
         <div className='container-fluid content'>
           <div className="row">
-            <div className="col-2 col-xs-1 previousPage">
+            <div className="col-2 col-xs-2 previousPage">
               <PreviousPage page={page} newPage={setNewPage}/> 
             </div>
-            <div className="col-8 col-xs-10 locations">
+            <div className="col-8 col-xs-8 locations">
               <Locations locations={locations}/>
             </div>
-            <div className="col-2 col-xs-1 nextPage">
+            <div className="col-2 col-xs-2 nextPage">
               <NextPage page={page} newPage={setNewPage}/>
             </div>
           </div>

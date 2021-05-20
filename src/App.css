@@ -101,34 +101,19 @@
 }
 
 
-.search-input {
-  position: absolute;
-  right: 0;
-  margin-top: 1.3rem;
-  margin-right: 1rem;
-  height: 2rem;
-  padding: 1.5rem;
-  border: none;
-  border-radius: 2em;
-  outline: none;
-  background: linear-gradient(70deg,#df6ffe, #2ab2d4);
-  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.247);
-}
-
-.search-icon {
-  position: absolute;
-  right: 0;
-  margin-top: 1.3rem;
-  margin-right: 2.5rem;
-  height: 2rem;
-}
-
-.search-input::placeholder {
-  color: black;
-}
-
-.arrow {
+.arrow-left {
   position: fixed;
+  top: 15%;
+  left: 5%;
+  margin-top: 13%;
+  font-size: 5rem;
+  color: #5ab2c8;
+}
+
+.arrow-right {
+  position: fixed;
+  top: 15%;
+  right: 5%;
   margin-top: 13%;
   font-size: 5rem;
   color: #5ab2c8;
@@ -142,6 +127,29 @@
     flex-wrap: wrap;
     height: 10%;
     overflow: scroll;
+  }
+
+  .search-input {
+    position: absolute;
+    width: 170px;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    height: 2rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    background: linear-gradient(70deg,#df6ffe, #2ab2d4);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.247);
+  }
+  
+  .search-icon {
+    display: none;
+  }
+  
+  .search-input::placeholder {
+    color: black;
   }
 
 }
@@ -168,6 +176,32 @@
     }
   }
 
+  .search-input {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    height: 2rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    background: linear-gradient(70deg,#df6ffe, #2ab2d4);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.247);
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 2.5rem;
+    height: 2rem;
+  }
+  
+  .search-input::placeholder {
+    color: black;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -179,6 +213,32 @@
     height: 10%;
     overflow-y: scroll;
     overflow-x: hidden;
+  }
+
+  .search-input {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    height: 2rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    background: linear-gradient(70deg,#df6ffe, #2ab2d4);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.247);
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 2.5rem;
+    height: 2rem;
+  }
+  
+  .search-input::placeholder {
+    color: black;
   }
 
 }
@@ -205,6 +265,32 @@
     }
   }
 
+  .search-input {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    height: 2rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    background: linear-gradient(70deg,#df6ffe, #2ab2d4);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.247);
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 2.5rem;
+    height: 2rem;
+  }
+  
+  .search-input::placeholder {
+    color: black;
+  }
+
 }
 
 @media (min-width: 1200px) and (min-height: 800px) {
@@ -229,6 +315,32 @@
     }
   }
 
+  .search-input {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    height: 2rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    background: linear-gradient(70deg,#df6ffe, #2ab2d4);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.247);
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 2.5rem;
+    height: 2rem;
+  }
+  
+  .search-input::placeholder {
+    color: black;
+  }
+
 }
 
 @media (min-width: 1200px) and (min-height: 949px) {
@@ -240,6 +352,32 @@
     height: 30%;
     overflow-y: scroll;
     overflow-x: hidden;
+  }
+
+  .search-input {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    height: 2rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    background: linear-gradient(70deg,#df6ffe, #2ab2d4);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.247);
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 0;
+    margin-top: 1.3rem;
+    margin-right: 2.5rem;
+    height: 2rem;
+  }
+  
+  .search-input::placeholder {
+    color: black;
   }
 
 }
