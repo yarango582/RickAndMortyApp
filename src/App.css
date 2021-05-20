@@ -420,7 +420,7 @@
 }
 
 .Modal-Content {
-  padding: 50px;
+  padding: 25px 50px;
 }
 
 .Modal-Header-firstMid {
@@ -444,7 +444,7 @@
   animation-name: midTwo;
 }
 
-.Modal-Header-firstMid >img {
+.Modal-Header-firstMid > div > img {
   height: 100px;
 }
 
@@ -492,9 +492,14 @@
 .img-character {
   max-width: 400px;
   max-height: 400px;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .container-characters {
+  text-align: center;
   justify-content: center;
+}
+
+.title-card {
+  margin-bottom: 20px;
 }

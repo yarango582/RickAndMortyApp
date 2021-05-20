@@ -28,7 +28,7 @@ const Residents = ({residents, dimension, type, window}) => {
     return(
         <div className='Residents-container'>
             <NoFoundCharacter condition={verifyCharacters} type={type} dimension={dimension}/>
-            <Card description={descriptionResidents} window={window}/>
+            <Card description={descriptionResidents} window={window} type={type} dimension={dimension}/>
         </div>
     )
 } 

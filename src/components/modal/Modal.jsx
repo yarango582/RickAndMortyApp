@@ -37,7 +37,11 @@ const Modal = ({residents, dimension, type}) => {
           >
           <Header 
             typeStyle='Modal-Header-firstMid ' 
-            child={<img src={logoModal} alt='LogoHeaderModal'/>}
+            child={
+            <div>
+              <img src={logoModal} alt='LogoHeaderModal'/>
+            </div>
+          }
             button={<button className='buttonClose' onClick={closeModal}><i className="fas fa-window-close" title='Close'></i></button>}
           />
           <Header 
