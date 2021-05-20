@@ -13,6 +13,7 @@ const Locations = ({locations}) => {
                                     name={data.name}
                                     type={data.type}
                                     dimension={data.dimension}
+                                    residents={data.residents}
                                 />
                         </div>
                     )

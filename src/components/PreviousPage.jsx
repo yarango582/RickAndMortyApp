@@ -1,5 +1,5 @@
 import Arrow from './arrows/ArrowL';
-import loadingPopUp, {notFoundPopUp} from './Alert';
+import loadingPopUp, {notFoundPopUp} from './pop-up/Alert';
 import message from '../utils/messages.json';
 
 const PreviousPage = ({page, newPage}) => {

@@ -10,7 +10,7 @@ const Card = (props) => {
                     <li className='card-list__item'>Type: {props.type}</li>
                     <li className='card-list__item'>Dimension: {props.dimension}</li>
                 </ul>
-                <Modal/>
+                <Modal residents={props.residents} dimension={props.dimension} type={props.type}/>
             </div>
         </div>
     )

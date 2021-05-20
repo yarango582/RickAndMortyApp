@@ -3,12 +3,15 @@ import Button from '../Button';
 import {useState} from 'react';
 import logoModal from '../../logo.png';
 import Header from './Header';
+import Residents from './Residents';
 
 ReactModal.setAppElement('#root');
 
-const Modal = () => {
+const Modal = ({residents, dimension, type}) => {
 
+    
     const [modalIsOpen,setIsOpen] = useState(false);
+
     function openModal() {
       setIsOpen(true);
     }
@@ -41,13 +44,7 @@ const Modal = () => {
             typeStyle='Modal-Header-secoundMid'
           />
           <div className='Modal-Content'>
-            <div className='container'>
-              <div className='row'>
-                <div className='col-12'>
-                  {/* Cards */}
-                </div>
-              </div>
-            </div>
+              <Residents residents={residents} type={type} dimension={dimension} window={modalIsOpen}/>
           </div>
           </ReactModal>
         </div>

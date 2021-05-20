@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import CoreApi from './../classes/coreApi';
-import {loadingPopUpFast} from './Alert';
+import {loadingPopUpFast} from './pop-up/Alert';
 import message from '../utils/messages.json';
 
 const SearchInput = ({dataSearch}) => {
