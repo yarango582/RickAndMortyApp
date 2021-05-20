@@ -10,6 +10,7 @@
   background-size: cover;
   background-position: center;
 }
+
 .App {
   position: relative;
   background-color: rgba(0, 0, 0, 0.466);
@@ -19,7 +20,6 @@
 .row-center {
   justify-content: center;
 }
-
 
 *::-webkit-scrollbar {
   width: 0.5em;
@@ -35,10 +35,9 @@
   border-radius: 10px;
 }
 
-
 .card {
   width: 18rem;
-  height: 17rem;
+  height: 15rem;
   margin: 2rem 1rem 2rem 1rem;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.692);
 }
@@ -100,7 +99,6 @@
   justify-content: flex-start;
 }
 
-
 .arrow-left {
   position: fixed;
   top: 15%;
@@ -120,6 +118,13 @@
 }
 
 @media (max-width: 575.98px) {
+
+  .card {
+    width: 13rem;
+    height: 15rem;
+    margin: 2rem 1rem 2rem 1rem;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.692);
+  }
 
   .card-distribution {
     display: inline-flex;
