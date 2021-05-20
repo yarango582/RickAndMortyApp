@@ -24,11 +24,11 @@ const Card = ({description, window, dimension, type}) => {
                                     }
                                     return(
                                         <div className='col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12 text-center' key={character.id}>
+                                            <p>#{index+1}</p>
                                             <img src={character.image} alt={character.name} className='img-character'/>
                                             <div className='footer-card'>
-                                                <p>#{index+1}</p>
-                                                <p>{character.status}<i className={`fas fa-dot-circle ${character.status}`}></i></p>
                                                 <p>{character.name}</p>
+                                                <p>{character.status}<i className={`fas fa-dot-circle ${character.status}`}></i></p>
                                             </div>
                                         </div>
                                     )

@@ -506,7 +506,7 @@
 
 .footer-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* Estados del personaje */
