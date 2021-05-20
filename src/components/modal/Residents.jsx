@@ -8,7 +8,6 @@ const Residents = ({residents, dimension, type, window}) => {
     const [verifyCharacters, setVerifyCharacters] = useState(true);
     const [descriptionResidents, setDescriptionResidents] = useState([]);
 
-
     useEffect(() => {
 
         let coreApi = new CoreApi();
@@ -23,7 +22,6 @@ const Residents = ({residents, dimension, type, window}) => {
                 setVerifyCharacters(false);
             })
     },[residents, setVerifyCharacters]);
-
     
     return(
         <div className='Residents-container'>

@@ -405,7 +405,7 @@
   left: 40px;
   right: 40px;
   bottom: 40px;
-  background-color: rgb(255, 255, 255);
+  background: white;
   border-radius: 20px 0px 20px 20px;
   overflow-y: scroll;
 }
@@ -503,3 +503,27 @@
 .title-card {
   margin-bottom: 20px;
 }
+
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estados del personaje */
+
+.Dead {
+  margin-left: 5px;
+  color: red;
+}
+
+.Alive {
+  margin-left: 5px;
+  color: green;
+}
+
+.unknown {
+  margin-left: 5px;
+  color: grey;
+}
+
+/* Estados del personaje */
